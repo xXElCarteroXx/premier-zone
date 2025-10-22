@@ -50,15 +50,19 @@ cd premier-zone
 
 Create a PostgreSQL database named premier-zone-db (or any name you prefer)
 Then, update your credentials in **src/main/resources/application.properties**
-- spring.datasource.url=jdbc:postgresql://localhost:5432/premier_zone_db
-- spring.datasource.username=your_username
-- spring.datasource.password=your_password
-- spring.jpa.hibernate.ddl-auto=update
-- spring.jpa.show-sql=true
+```bash
+spring.datasource.url=jdbc:postgresql://localhost:5432/premier_zone_db
+spring.datasource.username=your_username
+spring.datasource.password=your_password
+spring.jpa.hibernate.ddl-auto=update
+spring.jpa.show-sql=true
+```
 
 ### 3️⃣ Run the application
+```bash
 
 mvn spring-boot:run
+```
 
 ### 4️⃣ Test the API
  **Base URL:** http://localhost:8080/api/v1/player
