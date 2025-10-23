@@ -2,6 +2,7 @@
 
 A backend REST API built with **Spring Boot** and **PostgreSQL** that manages player records for the English Premier League.  
 This project is the backend foundation for a future full-stack web application that will track and manage player stats and profiles.
+**NOTE:** this project was done by following Erik Cupsa's version of the app for learning purposes
 
 ---
 
