@@ -20,7 +20,7 @@ Future updates will include:
 
 ## ⚙️ Tech Stack
 
-- ☕ **Java 17**
+- ☕ **Java 21**
 - 🧩 **Spring Boot 3.x**
 - 🌐 **Spring Web**
 - 🗄️ **Spring Data JPA**
